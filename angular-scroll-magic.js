@@ -1,6 +1,6 @@
 (function () {
 
-  angular.module('hj.scrollMagic', [])
+  angular.module('dv.scrollMagic', [])
 
     .provider('scrollMagic', function () {
       var self = this;
@@ -9,7 +9,7 @@
 
       self.$get = ['$rootScope', function ($rootScope) {
         return {
-          addIndicators: self.addIndicators,
+          addIndicators: self.addIndicators
         };
       }];
     })
@@ -51,7 +51,7 @@
         id = id || service.getSceneId(id);
 
         return scenes[id];
-      }
+      };
 
       service.setScene = function (id, scene) {
         scenes[id] = scene;
@@ -97,7 +97,7 @@
 
           if (scrollMagic.addIndicators) {
             scene.addIndicators({
-              name: sceneId,
+              name: sceneId
             });
           }
 
