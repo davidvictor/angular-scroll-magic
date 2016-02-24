@@ -2,10 +2,10 @@
   "name": "angular-scroll-magic",
   "version": "0.0.1",
   "description": "An angular directive for ScrollMagic, define pins and tweens in markup",
-  "main": "index.js",
+  "main": "angular-scroll-magic.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/homerjam/angular-scroll-magic"
+    "url": "https://github.com/davidvictor/angular-scroll-magic"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
